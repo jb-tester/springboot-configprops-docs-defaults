@@ -15,4 +15,8 @@ class WithLombokGettersSettersConfigProps {
      * the String property from WithLombokGettersSettersConfigProps
      */
     private String p1="default";
+    /**
+     * the Enum property from WithLombokGettersSettersConfigProps class
+     */
+    private SomeEnum p2=SomeEnum.WHITE;
 }

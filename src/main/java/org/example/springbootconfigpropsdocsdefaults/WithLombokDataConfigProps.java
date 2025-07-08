@@ -12,4 +12,8 @@ class WithLombokDataConfigProps {
      * the String property from WithLombokDataConfigProps class
      */
     private String p1="default";
+    /**
+     * the Enum property from WithLombokDataConfigProps class
+     */
+    private SomeEnum p2=SomeEnum.RED;
 }

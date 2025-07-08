@@ -13,4 +13,9 @@ class WithLombokConstructorsConfigProps {
      * the String property from WithLombokConstructorsConfigProps class
      */
     private String p1="default";
+    /**
+     * the Enum property from WithLombokConstructorsConfigProps class
+     */
+    private SomeEnum p2= SomeEnum.BLUE;
+
 }
