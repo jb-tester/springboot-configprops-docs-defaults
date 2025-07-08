@@ -11,8 +11,22 @@ public class ClassWithPojosAndEnum {
     @NestedConfigurationProperty
     DataClass pojo;
 
+    /**
+     * enum property from ClassWithPojosAndEnum, GREEN by defaut
+     */
+    SomeEnum enumProp = SomeEnum.GREEN;
+
     List<DataClass> pojoList;
+
     Map<String, DataClass> pojoMap;
+
+    public SomeEnum getEnumProp() {
+        return enumProp;
+    }
+
+    public void setEnumProp(SomeEnum enumProp) {
+        this.enumProp = enumProp;
+    }
 
     public Map<String, DataClass> getPojoMap() {
         return pojoMap;

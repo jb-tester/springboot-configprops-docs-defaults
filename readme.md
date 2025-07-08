@@ -8,7 +8,8 @@ However, the documentation is still not shown.
 
 
 Also:
-default values are not shown for any enum-type properties
-default values are not shown for any collection of POJO or Map of POJO properties
+default values are not shown for any enum-type properties - https://youtrack.jetbrains.com/issue/IDEA-375643/Spring-Configuration-properties-no-defaults-are-shown-for-Enum-type-properties
+
+default values are not shown for any collection of POJO or Map of POJO properties - https://youtrack.jetbrains.com/issue/IDEA-375648/Spring-Boot-default-values-and-javadocs-are-not-shown-for-configuration-properties-of-ListPOJO-MapPOJO-type
 
     
